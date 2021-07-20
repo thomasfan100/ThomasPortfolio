@@ -1,0 +1,22 @@
+*{
+    background-color: lightskyblue;
+}
+ul {
+    list-style-type: none;
+}
+
+/* ID's */
+/* Classes */
+.resume{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.resume iframe {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 80%;
+	height: 80%;
+}
