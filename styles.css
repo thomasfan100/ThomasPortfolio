@@ -1,10 +1,22 @@
-*{
-    background-color: lightskyblue;
-}
+
 ul {
     list-style-type: none;
 }
-
+a{
+    color:rgb(243, 243, 243);
+    text-decoration:none;
+    
+}
+a:link{
+    background-color: rgb(48, 30, 155);
+}
+a:visited{
+    background-color: rgb(48, 30, 155);
+}
+a:hover{
+    color:rgb(135, 36, 248);
+    background-color: rgb(251, 251, 253);
+}
 /* ID's */
 /* Classes */
 .resume{

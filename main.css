@@ -1,0 +1,207 @@
+/* Home Page Styling */
+body{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    /*background-color:rgb(200, 156, 252);*/
+    /*background-image: url('../images/chess-pieces.png');*/
+    margin:0;
+    padding:0;
+}
+
+/* Top Menu */
+nav {
+    background-color: tomato;
+}
+
+nav>div{
+    height: 60px;
+    width: 80%;
+    margin: auto;
+}
+
+nav>div>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav>div>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav>div>ul>li:nth-child(1){
+    flex-grow: 1;
+}
+
+/* Main Content */
+header{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 500px;
+    padding: 10% 5%;
+    margin: 0px;
+    background-color:rgb(43, 38, 66);
+    opacity: .9;
+}
+
+h1{
+    font-size :55px;
+    color:white;
+}
+
+hr{
+    width: 90%;
+    height: 2px;
+    color: white;
+    background-color: white;
+    margin: 5% 0;
+    
+}
+
+p.intro{
+    font-size: 1.2em;
+    width: 250px;
+    margin: 10px 10px 10px 0px;
+    padding-left: 0px;
+    display:inline;
+}
+
+#getstarted{
+    font-size: 20px;
+    border-style:solid;
+    border-color:white;
+    border-width: 2px;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 70px 10px 10px 10px;
+    width: 8%;
+    display: inline;
+    text-decoration: none;
+    color:white;
+}
+
+p{
+    color:white;
+    padding: 1em;
+}
+
+h2{
+    font-size : 60px;
+    color: seashell;
+}
+
+/* Additional Content */
+section{
+    display:flex;
+    flex-direction: row;
+}
+.flex_1{
+    background-image: url('../images/city.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    height: 683px;
+    width: 60%;
+    margin: 0;
+}
+#about {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(123, 218, 235, .5);
+}
+#about > div{
+    margin-left: 30px;
+}
+#about:hover{
+    background-color: rgba(123, 218, 235, 0);
+}
+
+.flex_2{
+    background-color:rgb(129, 101, 182);
+    width: 40%;
+    
+    margin: 0;
+}
+.flex_3{
+    background-color: rgb(226, 204, 131);
+    width: 40%;
+    margin: 0;
+}
+.flex_4{
+    background-image: url('../images/mountain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 0px;
+    height:683px;
+    width: 60%;
+    margin: 0;
+
+}
+#resume{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(99, 179, 132,.5);
+}
+#resume > div{
+    margin-left:30px;
+}
+
+#resume:hover{
+    background-color:rgba(99, 179, 132,0);
+}
+
+p.detail{
+    font-size: 1.2em;
+    width: 250px;
+    margin: 10px 10px 10px 0px;
+    padding-left: 0px;
+    display:inline;
+}
+#about , #resume{
+    color:rgb(243, 243, 243);
+    text-decoration:none;
+}
+
+/*
+#about:link{
+    background-color: rgb(161, 227, 231);
+}
+
+#about:visited{
+    background-color: rgb(161, 227, 231);
+}
+
+#about:hover{
+    color:rgb(135, 36, 248);
+    background-color: rgb(251, 251, 253);
+}
+
+#resume:link{
+    background-color:rgb(189, 135, 250);
+}
+
+#resume:visited{
+    background-color:rgb(189, 135, 250);
+}
+
+#resume:hover{
+    color:rgb(135, 36, 248);
+    background-color: rgb(251, 251, 253);
+}
+*/
