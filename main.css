@@ -19,6 +19,7 @@ nav>div{
 }
 
 nav>div>ul {
+    height:100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -26,19 +27,33 @@ nav>div>ul {
     display: flex;
     justify-content: space-around;
 }
-
 nav>div>ul>li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding:16px;
     text-decoration: none;
     font-weight: bold;
+    height: 100%;
 }
 nav>div>ul>li:nth-child(1){
     flex-grow: 1;
 }
 
+/* Main Body Styling */
+
+ul {
+    list-style-type: none;
+}
+a{
+    color:rgb(243, 243, 243);
+    text-decoration:none;
+}
+
+a:hover{
+    color:rgb(248, 78, 36);
+    background-color: rgb(251, 251, 253);
+}
 /* Main Content */
 header{
     background-image: url('../images/banner.jpg');
