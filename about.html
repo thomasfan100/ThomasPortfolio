@@ -9,57 +9,252 @@ layout: default
             <li id="nav_link"><a href = "/index.html">Home</a></li>
             <li id="nav_link"><a href = "/about.html">About</a></li>
             <li><a href = "/resume.html">Resume</a></li>
-
         </ul>
     </div>
 </nav>
-
-<section>
-    <h1>My name is Thomas Fan</h1>
-    <hr/>
-    <p>Currently studying at Missouri S&T. I have many studied many object oriented languages
-    with experience in web development and network monitoring as well.</p>
-</section>
-<section>
-    <h2> Projects </h2>
-    <img src = "/images/multirotor.png"/>
-    <p>Multirotor Robot Design Team</p>
-    <p> Developed drone software able to detect objects from the surrounding
-        background. Blobs and objects were counted by software through color contrast
-        analysis. Worked in a subgroup for the Multirotor Robot Design Team drone
-        project.
-    </p>
-
-    <img src = "/images/acm.png"/>
-    <p>ACM Website</p>
-    <p>
-        Frontend and backend design on website structure ensuring that the ACM web
-        website is able to function properly. Worked with website formatting, and
-        functionality of payment fees.
-    </p>
-
-    <img src = "/images/static-site-generator.png"/>
-    <p>Static Site Generator</p>
-    <p>
-        A command line project that will parse markdown, restructured text, and resource files.
-        Incompatible file types were also filtered from the parsing.
-    </p>
-</section>
-
-
-<section>
-    <h2> Skills </h2>
-    <p>Python, Java, C++ </p>
-    
-
-    <h2> Tools </h2>
-    <p>Git, Github, Vim, GBD, HTML</p>
-</section>
-<section>
-    <h2> Education </h2>
-    <p> 
-    Missouri University of Science and Technology (Missouri S&T) • Rolla, MO 
-    - B.S. Computer Science • May 2023 4.0 / 4.0 Cumulative GPA 
-    - Relevant Courses: Algorithms, Data Structures, Calculus (9th Grade) 
-    </p>
-</section>
+<main>
+    <div class = "content-wrapper">
+        <section class ="intro">
+            <h1>Here is a little about me, Thomas Fan</h1>
+            <hr/>
+            <p>Currently studying at Missouri S&T. I have many studied many object oriented languages
+            with experience in web development and network monitoring as well.</p>
+        </section>
+        <section>
+            <h2> Projects </h2>
+            <hr />
+            <div class = "projectwrap">
+                <img class = "projectimg" src = "/images/multirotor.png"/>
+                <div class = "projecttext">
+                    <h4>Multirotor Robot Design Team</h4>
+                    <p> Developed drone software able to detect objects from the surrounding
+                        background. Blobs and objects were counted by software through color contrast
+                        analysis. Worked in a subgroup for the Multirotor Robot Design Team drone
+                        project.
+                    </p>
+                    <div class = "projectmeta">
+                        <div class = "projecttech">
+                            <h4>Tech Used:</h4>
+                            <p>Python (numpy)</p>
+                        </div>
+                        <div class = "projectlink">
+                            <a href="https://github.com/MissouriMRR/IARC-2020" class="gitlink" target = "_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "projectwrap">
+                <img class = "projectimg" src = "/images/acm.png"/>
+                <div class = "projecttext">
+                    <h4>ACM Website</h4>
+                    <p>
+                        Frontend and backend design on website structure ensuring that the ACM web
+                        website is able to function properly. Worked with website formatting, and
+                        functionality of payment fees.
+                    </p>
+                    <div class = "projectmeta">
+                        <div class = "projecttech">
+                            <h4>Tech Used:</h4>
+                            <p>HTML/CSS, React.js</p>
+                        </div>
+                        <div class = "projectlink">
+                            <a href="https://github.com/sigdotcom/mstacm.org" class="gitlink" target = "_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "projectwrap">
+                <img class = "projectimg" src = "/images/static-site-generator.png"/>
+                <div class = "projecttext">
+                    <h4>Static Site Generator</h4>
+                    <p>
+                        A command line project that will parse markdown, restructured text, and resource files.
+                        Incompatible file types were also filtered from the parsing.
+                    </p>
+                    <div class = "projectmeta">
+                        <div class = "projecttech">
+                            <h4>Tech Used:</h4>
+                            <p>Python, Markdown</p>
+                        </div>
+                        <div class = "projectlink">
+                            <a href="https://github.com/thomasfan100/a-python-static-site-generator" class="gitlink" target = "_blank">
+                                <i class="fab fa-github"></i>
+                                GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- SKILLS -->
+            <section class ="my_skills">
+                <h2> Skills </h2>
+                <hr id = "skills_line"/>
+            </section>
+            <h2> Languages </h2>
+            <hr />
+            <div class = "skill">
+                <div class = "skill-name">
+                    <h3>C++</h3>
+                </div>
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        Used in many projects during freshman and sophomore years. 
+                        Classes include: Introduction to Programming with C++, 
+                        Algorithms, Data Structures, and corresponding labs.
+                    </p>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        Used in developing drone AI, side projects such as an order service,
+                        and classes including Discrete Math and Computer Science Theory.
+                    </p>
+                </div>
+                <div class = "skill-name">
+                    <h3>Python</h3>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-name">
+                    <h3>Java</h3>
+                </div>
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        Picked up through high school advanced placement computer science course 
+                        and also implemented throughout the duration fo my Wells Fargo internship.
+                    </p>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-description">
+                    <h4>Knowledgable</h4>
+                    <p>
+                        Taken certified courses through pluralsight and some personal project experience.
+                    </p>
+                </div>
+                <div class = "skill-name">
+                    <h3>Javascript</h3>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-name">
+                    <h3>Golang</h3>
+                </div>
+                <div class = "skill-description">
+                    <h4>Knowledgable</h4>
+                    <p>
+                        Taught through certified courses through pluralsight and used in side-projects as well.
+                    </p>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-description">
+                    <h4>Knowledgable</h4>
+                    <p>
+                        Introduced through pluralsight online certified courses and applied in 
+                        my time at my summer internship at Wells Fargo.
+                    </p>
+                </div>
+                <div class = "skill-name">
+                    <h3>C#</h3>
+                </div>
+            </div>
+            <!-- TOOLS -->
+            <h2> Tools </h2>
+            <hr />
+            <div class = "skill">
+                <div class = "skill-name">
+                    <h3>Github</h3>
+                </div>
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        Used extensively in Multirotor Design team for unit testing and having an
+                        accessible workspace. Also is implemented in almost all of my projects. 
+                    </p>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        Have used Git with many many projects. 
+                        Git workflows have increased my work efficiency drastically.
+                    </p>
+                </div>
+                <div class = "skill-name">
+                    <h3>Git</h3>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-name">
+                    <h3>Splunk</h3>
+                </div>
+                <div class = "skill-description">
+                    <h4>Knowledgable</h4>
+                    <p>
+                        Experience gained during my time at Wells Fargo and worked on searches, alerts,
+                        and reports in a real time environment. 
+                    </p>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-description">
+                    <h4>Knowledgable</h4>
+                    <p>
+                        Experience gained during my time at Wells Fargo and worked on nodes
+                        and visualizations in a real time environment. 
+                    </p>
+                </div>
+                <div class = "skill-name">
+                    <h3>AppDynamics</h3>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-name">
+                    <h3>HTML</h3>
+                </div>
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        First language learned and applied to multiple websites and small applications.
+                    </p>
+                </div>
+            </div>
+            <div class = "skill">
+                <div class = "skill-description">
+                    <h4>Strong</h4>
+                    <p>
+                        Learned along side HTML and have also been used extensively 
+                        to creatively shape the flow of my designs.
+                    </p>
+                </div>
+                <div class = "skill-name">
+                    <h3>CSS</h3>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2> Education </h2>
+            <hr />
+            <p> 
+            <a id = "edu_link" href = "https://www.mst.edu/" target ="_blank">Missouri University of Science and Technology</a>
+            (Missouri S&T) • Rolla, MO 
+            - B.S. Computer Science • May 2023 4.0 / 4.0 Cumulative GPA 
+            - Relevant Courses: Algorithms, Data Structures, Calculus (9th Grade) 
+            </p>
+        </section>
+    </div>
+</main>
