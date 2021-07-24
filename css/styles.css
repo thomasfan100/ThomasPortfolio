@@ -47,7 +47,7 @@ nav>div>ul>li:nth-child(1){
 .resume{
     position: relative;
     /* used to be bottom 56.25% and top 25px */
-    padding-bottom: 85%;
+    padding-bottom: 100%;
     padding-top: 0%;
     height: 0;
 }
@@ -56,7 +56,7 @@ nav>div>ul>li:nth-child(1){
 	top: 0px;
 	left: 50%;
     transform: translate(-50%, 0);
-	width: 80%;
+	width: 100%;
 	height: 100%;
 }
 .resume-wrap{
