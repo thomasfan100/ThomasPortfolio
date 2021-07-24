@@ -46,8 +46,9 @@ nav>div>ul>li:nth-child(1){
 /* Resume */
 .resume{
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 25px;
+    /* used to be bottom 56.25% and top 25px */
+    padding-bottom: 85%;
+    padding-top: 0%;
     height: 0;
 }
 .resume iframe {
@@ -207,10 +208,11 @@ h3{
     margin: 10px 0px;
 }
 .skill-name{
-    padding-top:1.6%;
+    display:flex;
+    align-items: center;
     text-align:center;
-    width: 30%;
     justify-content: center;
+    width: 30%;
     color:rgb(104, 63, 179);
     background-color: rgb(123, 218, 235);
 }
