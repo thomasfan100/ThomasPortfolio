@@ -43,6 +43,23 @@ nav>div>ul>li:nth-child(1){
     flex-grow: 1;
 }
 
+/* Socials */
+.socials {
+    background-color: rgb(43, 38, 66);
+    text-align: center;
+}
+a{
+    color:rgb(243, 243, 243);
+    text-decoration:none;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+a:hover{
+    color:rgb(248, 78, 36);
+    background-color: rgb(251, 251, 253);
+}
+
 /* Resume */
 .resume{
     position: relative;
@@ -192,7 +209,6 @@ h2 {
 }
 .projecttech h4, .projecttech p{
     margin-top:2px;
-    font-size: 100%;
 }
 .projectlink{
     display: flex;
