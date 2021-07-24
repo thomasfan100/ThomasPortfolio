@@ -156,6 +156,16 @@ h2 {
     display:flex;
     padding:40px 0;
 }
+@media only screen and (max-device-width:750px){
+    .projectwrap{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .projectimg{
+        border-style: none !important;
+        padding-bottom: 10%;
+    }
+}
 .projectimg{
     height: 100%;
     max-height: none;
