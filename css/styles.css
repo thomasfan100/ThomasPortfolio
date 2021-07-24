@@ -48,6 +48,9 @@ nav>div>ul>li:nth-child(1){
     background-color: rgb(43, 38, 66);
     text-align: center;
 }
+.socials a{
+    border-radius: 5px;
+}
 a{
     color:rgb(243, 243, 243);
     text-decoration:none;

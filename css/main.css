@@ -46,6 +46,9 @@ nav>div>ul>li:nth-child(1){
     padding-top: 30px;
     padding-bottom: 20px;
 }
+.socials a{
+    border-radius: 5px;
+}
 /* Main Body Styling */
 
 ul {
