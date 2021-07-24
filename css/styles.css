@@ -192,7 +192,7 @@ h2 {
 }
 .projecttech h4, .projecttech p{
     margin-top:2px;
-
+    font-size: 100%;
 }
 .projectlink{
     display: flex;
@@ -225,6 +225,7 @@ h3{
     width: 30%;
     color:rgb(104, 63, 179);
     background-color: rgb(123, 218, 235);
+    word-break:break-all;
 }
 .skill-description{
     padding: 10px 50px ;
