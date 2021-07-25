@@ -64,6 +64,10 @@ a:hover{
 }
 
 /* Resume */
+#resume_social{
+    padding-top: 15px;
+    font-size: 2.5em;
+}
 .resume{
     position: relative;
     /* used to be bottom 56.25% and top 25px */
