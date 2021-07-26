@@ -180,7 +180,6 @@ section{
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 100%;
     background-color:rgba(99, 179, 132,.5);
 }
 #resume > div{
