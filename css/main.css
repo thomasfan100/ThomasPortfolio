@@ -41,10 +41,10 @@ nav>div>ul>li:nth-child(1){
 }
 /* Socials */
 .socials {
-    background-color: rgb(150,90,91);
+    background-color: rgb(211, 80, 57);
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .socials a{
     border-radius: 5px;
