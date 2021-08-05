@@ -39,7 +39,16 @@ nav>div>ul>li a {
 nav>div>ul>li:nth-child(1){
     flex-grow: 1;
 }
-
+/* Socials */
+.socials {
+    background-color: rgb(211, 80, 57);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.socials a{
+    border-radius: 5px;
+}
 /* Main Body Styling */
 
 ul {
@@ -48,6 +57,8 @@ ul {
 a{
     color:rgb(243, 243, 243);
     text-decoration:none;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a:hover{
@@ -102,7 +113,6 @@ p.intro{
     width: 8%;
     display: inline;
     text-decoration: none;
-    color:white;
 }
 
 p{
@@ -170,7 +180,6 @@ section{
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    width: 100%;
     background-color:rgba(99, 179, 132,.5);
 }
 #resume > div{
