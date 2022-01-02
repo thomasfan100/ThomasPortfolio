@@ -207,6 +207,10 @@ h2 {
     border-style: solid;
     border-radius: 25px;
 }
+.projectdesc{
+    padding-right:1em;
+    padding-bottom: 2em;
+}
 .projectmeta{
     display:flex;   
 }
