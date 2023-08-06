@@ -4,4 +4,4 @@ source "https://rubygems.org"
 gem "jekyll"
 
 #added for laptop
-gem "webrick", ">= 2.2.8"
+gem "webrick", "~> 1.7"
